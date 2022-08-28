@@ -1,0 +1,294 @@
+
+
+@media screen and (max-width: 600px) {
+    //start header section
+    header {
+        padding: 0;
+    }
+    header .right-header {
+        padding: 2rem !important;
+    }
+
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-content .left-header .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .main-btn {
+        font-size: .9rem !important;
+    }
+    //end header section
+
+    //start navbar section
+    .controlls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control {
+            margin: 1rem .3rem;
+        }
+    }
+    //end navbar sections
+
+    //start about section
+    .about-container {
+        grid-template-columns: repeat(1, 1fr);
+        .right-about {
+            grid-template-columns: repeat(1, 1fr);
+            padding-top: 2.5rem;
+        }
+        .left-about {
+            padding-right: 0;
+            p {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .about-stats{
+        .progress-bars {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .section {
+        padding: 2rem 2.5rem !important;
+    }
+    //end about section
+
+    //Start Portfolio
+    .portfolios {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+        margin-top: 1rem;
+    }
+    //end Portfolio
+
+    //start Blogs
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+    //end Blogs
+
+    //start contact sections
+    .contact-content-con {
+        flex-direction: column;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 0;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2 {
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    .contact-content-con .right-contact {
+        margin-bottom: 6rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        margin: 1rem 0;
+        p {
+            font-size: 13px;
+            color: var(--color-grey-2);
+        }
+        span {
+            font-size: 13px;
+        }
+        .icon {
+            grid-template-columns: 25px 1fr;
+        }
+    }
+    //end contact sections
+
+    //Start main Tittle
+    .main-title {
+        h2 {
+            font-size: 2rem;
+            span {
+                font-size: 2.3rem;
+            }
+            .bg-text {
+                font-size: 2.3rem;
+            }
+        }
+    }
+    //End main tittle
+}
+
+
+@media screen and (max-width: 1432px) {
+     //start contact sections
+     header {
+        padding: 0 !important;
+     }
+     .section {
+        padding: 7rem 11rem;
+     }
+     .contact-content-con {
+        flex-direction: column;
+        .right-contact {
+            margin-left: 0;
+            margin-top: 0;
+        }
+    }
+    .contact-content-con .right-contact .i-c-2 {
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+
+    //end contact sections
+}
+
+@media screen and (max-width: 1070px) {
+    .about-container {
+        grid-template-columns: repeat(1, 1fr);
+        .right-about {
+            padding-top: 2.5rem;
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-title {
+        h2 {
+            font-size: 4rem;
+            span {
+                font-size: 4rem;
+            }
+            .bg-text {
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 970px) {
+    .section {
+        padding: 7rem 6rem;
+    }
+    header {
+        padding: 0;
+    }
+    header .right-header {
+        padding: 2rem !important;
+    }
+
+    .theme-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header {
+        .h-shape {
+            display: none;
+        }
+    }
+    .right-header {
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-content .left-header .image {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    //start navbar section
+    .controlls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control {
+            margin: 1rem .3rem; //this an error
+        }
+    }
+    //end navbar sections
+}
+
+
+@media screen and (max-width: 700px) {
+    .section {
+        padding: 7rem 3rem;
+    }
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .main-title {
+        h2 {
+            font-size: 3rem;
+            span {
+                font-size: 3rem;
+            }
+            .bg-text {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+
+
+
